@@ -17,3 +17,11 @@ http://ruby.railstutorial.org/chapters/a-demo-app
 
     git remote add origin git@github.com/kaiwangchen/demo_app.git
     git push -u origin master
+
+    rails generate scaffold User name:string email:string
+    bundle exec rake db:migrate
+
+    rails server  # http://localhost:3000/users
+
+    # http://ruby.railstutorial.org/chapters/a-demo-app#sec-mvc_in_action
+    
