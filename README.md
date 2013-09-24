@@ -29,4 +29,4 @@ http://ruby.railstutorial.org/chapters/a-demo-app
     rails server  # http://localhost:3000/microposts
 
     # http://ruby.railstutorial.org/chapters/a-demo-app#sec-mvc_in_action
-    
+    # rails console
