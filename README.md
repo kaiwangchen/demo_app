@@ -23,5 +23,10 @@ http://ruby.railstutorial.org/chapters/a-demo-app
 
     rails server  # http://localhost:3000/users
 
+    rails generate scaffold Micropost content:string user_id:integer
+    bundle exec rake db:migrate
+
+    rails server  # http://localhost:3000/microposts
+
     # http://ruby.railstutorial.org/chapters/a-demo-app#sec-mvc_in_action
     
