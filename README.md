@@ -30,3 +30,5 @@ http://ruby.railstutorial.org/chapters/a-demo-app
 
     # http://ruby.railstutorial.org/chapters/a-demo-app#sec-mvc_in_action
     # rails console
+
+    rake assets:precompile
